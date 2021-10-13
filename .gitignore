@@ -1,3 +1,4 @@
 *.sql
 /token
-/bootstrap-*
+/bootstrap-5*
+/bootstrap-t*
