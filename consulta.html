@@ -54,9 +54,9 @@
   
 
   <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light rounded" aria-label="Eleventh navbar example">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded" aria-label="Eleventh navbar example">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">CONSULTA COMISSÃO</a>
+        <a class="navbar-brand" href="#">SISCONTI</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -81,7 +81,12 @@
       </div>
     </nav>
 
-    
+
+<nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">-- CONSULTA COMISSÕES --</a>
+  </div>
+</nav> 
 
 
 
@@ -103,8 +108,12 @@
 
 <div class="tab-content" id="myTabContent">
   <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-	<div class="mb-3">
+
+<div class="container">	
 	  <label for="formGroupExampleInput" class="form-label form-con">Tipo</label>
+</div>
+
+<div class="container">
 	<select class="form-select" aria-label="Default select example1">
   <option selected>Selecione...</option>
   <option value="1">Fiscalização de Contrato</option>
@@ -112,9 +121,14 @@
   <option value="3">Recebimento</option>
   <option value="3">Recebimento em Definitivo</option>
 </select>
+</div>
 
 
+<div class="container">
 <label for="exampleDataList" class="form-label form-con">Contrato</label>
+</div>
+
+<div class="container">
 <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
 <datalist id="datalistOptions">
   <option value="San Francisco">
@@ -123,8 +137,42 @@
   <option value="Los Angeles">
   <option value="Chicago">
 </datalist>
-	  
-	</div>
+</div>	  
+
+<div class="container form-con">
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td colspan="2">Larry the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+	
 </div>
   <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
 
@@ -144,13 +192,11 @@
 
 </div>
 
-
-
-
-
-
     
   </div>
+
+
+
 </main>
 
 
